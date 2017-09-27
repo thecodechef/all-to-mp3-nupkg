@@ -1,0 +1,8 @@
+.vscode/
+bower_componets/
+node_modules/
+
+*.nupkg
+.DS_Store
+*.sublime-package
+*.sublime-workspace

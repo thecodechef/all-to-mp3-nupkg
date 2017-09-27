@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>all-to-mp3</id>
+    <version>0.3.2</version>
+    <packageSourceUrl>https://github.com/thecodechef/alltomp3-nupkg/</packageSourceUrl>
+    <owners>Jeremy Bolding</owners>
+    <title>AllToMP3 (Install)</title>
+    <authors>Basile Bruneau</authors>
+    <projectUrl>https://alltomp3.org/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/thcodechef/alltomp3-nupkg/master/icons/icon_128x128.png</iconUrl>
+    <docsUrl>https://github.com/thcodechef/alltomp3-nupkg/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/thcodechef/alltomp3-nupkg/issues</bugTrackerUrl>
+    <tags>all-to-mp3, alltomp3, music, lyrics, mp3, audio, ffmpeg, download, spotify, deezer, youtube, soundcloud</tags>
+    <summary>Download YouTube videos in MP3 with tags and lyrics</summary>
+    <description>Download YouTube videos in MP3 with tags and lyrics</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
