@@ -1,10 +1,8 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'AllToMP3'
   fileType      = 'exe'
-  silentArgs    = "/qn /norestart"
-  validExitCodes= @(0, 3010, 1605, 1614, 1641)
 }
 
 $uninstalled = $false

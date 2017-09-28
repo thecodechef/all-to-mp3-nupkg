@@ -1,4 +1,4 @@
-﻿
+
 $version = "0.3.2"
 
 
@@ -9,16 +9,12 @@ $url        = "https://www.github.com/AllToMP3/alltomp3-app/releases/download/v`
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
-  fileType      = 'exe'
+  fileType      = 'EXE'
   url           = $url
-
+  silentArgs    = ""
   softwareName  = 'AllToMP3'
-
   checksum      = '022B1AC4800B67B052FD3873246B3E6F8D4D7FDE3D774183CEECE4FD89A7904B'
   checksumType  = 'sha256'
-
-  silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
-  validExitCodes= @(0, 3010, 1641)
 }
 
 Install-ChocolateyPackage @packageArgs

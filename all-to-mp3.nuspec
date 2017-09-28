@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>all-to-mp3</id>
@@ -7,15 +8,16 @@
     <owners>Jeremy Bolding</owners>
     <title>AllToMP3 (Install)</title>
     <authors>Basile Bruneau</authors>
-    <projectUrl>https://alltomp3.org/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/thcodechef/alltomp3-nupkg/master/icons/icon_128x128.png</iconUrl>
-    <docsUrl>https://github.com/thcodechef/alltomp3-nupkg/README.md</docsUrl>
-    <bugTrackerUrl>https://github.com/thcodechef/alltomp3-nupkg/issues</bugTrackerUrl>
-    <tags>all-to-mp3, alltomp3, music, lyrics, mp3, audio, ffmpeg, download, spotify, deezer, youtube, soundcloud</tags>
-    <summary>Download YouTube videos in MP3 with tags and lyrics</summary>
+    <summary>AllToMP3</summary>
     <description>Download YouTube videos in MP3 with tags and lyrics</description>
+    <projectUrl>https://alltomp3.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/thecodechef/alltomp3-nupkg/52e55aba/icons/icon_128x128.png</iconUrl>
+    <tags>all-to-mp3 alltomp3 music lyrics mp3 audio ffmpeg download spotify deezer youtube soundcloud</tags>
+    <licenseUrl>https://choosealicense.com/licenses/agpl-3.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
+    <file src="icons\**" target="icons" />
   </files>
 </package>
