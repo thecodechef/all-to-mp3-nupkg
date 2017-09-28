@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>all-to-mp3</id>
-    <version>0.3.2</version>
+    <version>0.3.3</version>
     <packageSourceUrl>https://github.com/thecodechef/alltomp3-nupkg/</packageSourceUrl>
     <owners>Jeremy Bolding</owners>
     <title>AllToMP3 (Install)</title>
