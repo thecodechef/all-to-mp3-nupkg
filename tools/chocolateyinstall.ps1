@@ -4,7 +4,7 @@ $version = "0.3.2"
 
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = "https://www.github.com/AllToMP3/alltomp3-app/releases/download/v`"$($version)/AllToMP3-Setup-$($version).exe"
+$url        = "https://www.github.com/AllToMP3/alltomp3-app/releases/download/v$version/AllToMP3-Setup-$version.exe"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
